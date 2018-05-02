@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ORHRM">
+  <test name="Smoke">
+    <classes>
+      <class name="com.Testng.BingTestng"/>
+      <class name="com.Testng.multipleTestCasesTestng"/>
+      <class name="com.Testng.AmazontestLogin"/>
+      <class name="com.Testng.FirstTestNg"/>
+      <class name="com.Testng.OrangeTestLogin"/>
+      <class name="com.Testng.AnnotionsTestng"/>
+      <class name="com.Testng.RadioButtonsTest"/>
+    </classes>
+  </test> 
+</suite> 

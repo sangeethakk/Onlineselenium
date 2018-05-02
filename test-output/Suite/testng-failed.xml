@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.Testng.AnnotionsTestng">
+        <methods>
+          <include name="After"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- com.Testng.AnnotionsTestng -->
+      <class name="com.Testng.AmazontestLogin">
+        <methods>
+          <include name="appLaunch"/>
+          <include name="appclose"/>
+        </methods>
+      </class> <!-- com.Testng.AmazontestLogin -->
+      <class name="com.Testng.BingTestng">
+        <methods>
+          <include name="BingTest"/>
+        </methods>
+      </class> <!-- com.Testng.BingTestng -->
+      <class name="com.Testng.OrangeTestLogin">
+        <methods>
+          <include name="appClose"/>
+          <include name="appLaunch"/>
+        </methods>
+      </class> <!-- com.Testng.OrangeTestLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
